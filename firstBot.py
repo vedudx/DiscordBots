@@ -7,7 +7,7 @@ from discord.ext import commands
 import pymongo
 from pymongo import MongoClient
 
-cluster = MongoClient("mongodb+srv://vedant:password@cluster0.zvlz2.mongodb.net/test")
+cluster = MongoClient("your mongo DB url")
 
 db = cluster["botDb"]
 
